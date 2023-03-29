@@ -1,0 +1,4 @@
+github.com/kklab-com/goth-bytebuf v1.0.1 h1:ozcyL8fJ7EBlnMshepYTWOZbbf6icsrtiisEJACd9jo=
+github.com/kklab-com/goth-bytebuf v1.0.1/go.mod h1:H14vt2RptXUFR/+TVGF1TQFra5CAdOUZRI3NEPvv/G4=
+github.com/kklab-com/goth-kkutil v1.3.3 h1:paNQ7D68JAMy/cauJRoJmIVNITGwwiRHl5a2oFYZ7MQ=
+github.com/kklab-com/goth-kkutil v1.3.3/go.mod h1:wpGuSNqqnw+Far+C6JQBdEBHEvMl3M4DoOprTuhS6a8=
