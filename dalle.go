@@ -42,7 +42,7 @@ type Data struct {
 	B64JSON string `json:"b64_json,omitempty"`
 }
 
-func (d *Data) Binary() (io.Reader, error) {
+func (d *Data) buf() (io.Reader, error) {
 	buffer := buf.EmptyByteBuf()
 	if d.Url != "" {
 		if resp, err := http.Get(d.Url); err == nil {
@@ -65,6 +65,11 @@ func (d *Data) Binary() (io.Reader, error) {
 	}
 
 	return buffer, nil
+
+}
+
+func (d *Data) Binary() (io.Reader, error) {
+	return d.buf()
 }
 
 type Response struct {
